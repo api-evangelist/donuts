@@ -1,8 +1,15 @@
 aid: donuts
 name: Donuts
-description: 'Donuts is a company surfaced as a portfolio company of emergence-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: infrastructure. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Donuts (now operating as Identity Digital, following the 2022 merger
+  of Donuts Inc. and Afilias) runs the world''s largest portfolio of new generic top-level
+  domains (gTLDs) — more than 280 extensions such as .email, .guru, .social, .live,
+  and .restaurant. As a wholesale domain registry it provides DNS infrastructure,
+  domain-name security, premium-domain services, and rights-protection tooling to
+  the accredited registrars and resellers who sell domains to end customers. Its
+  programmatic surface is registry-oriented and partner-facing: an EPP (Extensible
+  Provisioning Protocol) interface for domain provisioning, a HTTP Reports API that
+  delivers weekly domain and billing report files (CSV.gz over HTTP basic auth), and
+  a Registrar Portal. There is no public REST/OpenAPI developer surface.'
 url: https://raw.githubusercontent.com/api-evangelist/donuts/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,18 +17,73 @@ x-backed-by:
 - emergence-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/643d4b3fc3e02d37e33dd7d5/64931155928ec2e64df108cf_img_opengraph.jpg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Infrastructure
-apis: []
+- Domains
+- DNS
+- Domain Registry
+- gTLD
+- Registrar
+- EPP
+apis:
+- name: Identity Digital Reports API
+  description: 'HTTP Reports API for accredited registrars: retrieves weekly domain
+    and billing report files (CSV, gzip-compressed) from the Identity Digital registry.
+    Authenticated with registrar login credentials over HTTP basic auth. Registry/partner-facing;
+    not a public REST API and no OpenAPI is published.'
+  humanURL: https://www.identity.digital/help-articles/reports-api
+  baseURL: https://registryapi.donuts.co
+  tags:
+  - Reports
+  - Domains
+  - Registry
+  properties:
+  - type: Documentation
+    url: https://www.identity.digital/help-categories/api
+  - type: APIReference
+    url: https://www.identity.digital/help-articles/reports-api
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/donuts-domain-security.yml
 - type: Website
   url: https://donuts.domains
+- type: Documentation
+  url: https://www.identity.digital/help-categories/api
+- type: APIReference
+  url: https://www.identity.digital/help-articles/reports-api
+- type: Support
+  url: https://www.identity.digital/help-center
+- type: Blog
+  url: https://www.identity.digital/newsroom
+- type: Login
+  url: https://registrar.identitydigital.services/
+- type: TermsOfService
+  url: https://www.identity.digital/policies/website-terms-of-use
+- type: PrivacyPolicy
+  url: https://www.identity.digital/policies/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
