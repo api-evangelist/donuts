@@ -39,6 +39,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://donuts.domains', status: 301, note: 'declared website redirects to https://identity.digital/ — a different registrable domain (donuts.domains -> identity.digital), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://cdn.prod.website-files.com/643d4b3fc3e02d37e33dd7d5/64931155928ec2e64df108cf_img_opengraph.jpg
 specificationVersion: '0.23'
 created: '2026-07-17'
