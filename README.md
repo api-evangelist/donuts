@@ -64,6 +64,89 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Donuts is a company surfaced as a portfolio company of emergence-capital and added to the API Evangelist network as a stub for enrichment. Sector: infrastructure. This profile is a lead awaiting the enrichment pipeline.
+Donuts (now operating as Identity Digital, following the 2022 merger of Donuts Inc. and Afilias) runs the world's largest portfolio of new generic top-level domains (gTLDs) — more than 280 extensions such as .email, .guru, .social, .live, and .restaurant. As a wholesale domain registry it provides DNS infrastructure, domain-name security, premium-domain services, and rights-protection tooling to the accredited registrars and resellers who sell domains to end customers. Its programmatic surface is registry-oriented and partner-facing: an EPP (Extensible Provisioning Protocol) interface for domain provisioning, a HTTP Reports API that delivers weekly domain and billing report files (CSV.gz over HTTP basic auth), and a Registrar Portal. There is no public REST/OpenAPI developer surface.
 
-Backed by: emergence-capital — https://donuts.domains
+**Areas:** Company · Infrastructure · Domains · DNS · Domain Registry · gTLD · Registrar · EPP
+
+## Donuts on APIs.io
+
+Everything profiled for Donuts is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/donuts/](https://apis.io/providers/donuts/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Identity Digital Reports API](https://apis.io/apis/donuts/identity-digital-reports-api/) — HTTP Reports API for accredited registrars: retrieves weekly domain and billing report files (CSV, gzip-compressed) from the Identity Digital registry.…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Donuts Domain Security](https://apis.io/security/donuts/donuts-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://donuts.domains)
+- [Documentation](https://www.identity.digital/help-categories/api)
+- [API reference](https://www.identity.digital/help-articles/reports-api)
+- [Support](https://www.identity.digital/help-center)
+- [Blog](https://www.identity.digital/newsroom)
+- [Terms of service](https://www.identity.digital/policies/website-terms-of-use)
+- [Privacy policy](https://www.identity.digital/policies/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 16.2** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 27.6 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Education & Research
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/donuts/](https://apis.io/providers/donuts/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Donuts: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/donuts/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
